@@ -19,7 +19,7 @@
 #include <thrust/device_vector.h>
 #include <thrust/reduce.h>
 
-#include "timing.cuh"
+#include "../common/timing.cuh"
 #include "memory_tracking_allocator.cuh"
 
 int main(int argc, char** argv)

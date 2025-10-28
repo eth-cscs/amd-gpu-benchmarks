@@ -21,7 +21,7 @@
 #include <thrust/device_vector.h>
 #include <thrust/scan.h>
 
-#include "timing.cuh"
+#include "../common/timing.cuh"
 
 int main(int argc, char** argv)
 {
